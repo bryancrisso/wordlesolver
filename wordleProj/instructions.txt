@@ -1,0 +1,22 @@
+26/03/2022
+
+JSON FILE :
+	LIST OF ALL 12972 WORDS:
+		
+		ENTROPY (SUMMARY OF ALL POSSIBILITIES)
+		
+		LIST OF 243 POSSIBLE RESULTS:
+		
+			POSSIBILITY (USING THE STATS WE GOT IN THE LESSON)
+			
+			BITS (log(1/probability))
+
+
+PROBABILITIES ARE CALCULATED BY:
+
+
+P(GREEN) = letter.frequencyat(alphabet[letterIndex]) / 12972
+
+P(AMBER) = letter.frequencyat(alphabet[5])/12972 - P(GREEN)
+
+P(GREY) = 12972 - letter.frequencyat(alphabet[5]) / 12972
